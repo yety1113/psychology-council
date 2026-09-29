@@ -1,0 +1,35 @@
+{
+  "name": "psychology-council",
+  "version": "0.1.0",
+  "description": "以十二种经典心理学视角主持结构化辩论、价值澄清与低风险行动实验。",
+  "author": {
+    "name": "yety1113"
+  },
+  "keywords": [
+    "psychology",
+    "reflection",
+    "values",
+    "debate",
+    "decision-making"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "心理学十二镜议会",
+    "shortDescription": "与十二种心理学视角辩论并澄清自己的价值",
+    "longDescription": "通过十二镜扫描、独立立论、钢人化反驳、价值冲突探索、证据审查和行动实验，帮助用户形成自己的暂定判断。不是诊断、治疗或危机服务。",
+    "developerName": "yety1113",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "请用心理学十二镜议会讨论：我为什么总在重要事情上拖延？",
+      "请让互补的心理学视角辩论，并帮助我看见背后的价值冲突。",
+      "进入创新模式：生成可证伪的新心理学假设和低风险验证实验。"
+    ],
+    "brandColor": "#6F5B8B"
+  }
+}

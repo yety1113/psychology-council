@@ -1,0 +1,7 @@
+interface:
+  display_name: "心理学十二镜议会"
+  short_description: "多流派辩论、价值澄清与行动实验"
+  brand_color: "#6F5B8B"
+  default_prompt: "使用 $psychology-council 帮我从多种心理学视角讨论一个困惑，并探索其中的价值冲突。"
+policy:
+  allow_implicit_invocation: true

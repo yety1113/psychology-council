@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "psychology_council": {
+      "command": "python3",
+      "args": [
+        "./server/psychology_council_mcp.py"
+      ],
+      "cwd": ".",
+      "startup_timeout_sec": 10,
+      "tool_timeout_sec": 30,
+      "default_tools_approval_mode": "approve",
+      "tools": {
+        "council_save_deidentified": {
+          "approval_mode": "prompt"
+        },
+        "council_delete_saved": {
+          "approval_mode": "prompt"
+        }
+      }
+    }
+  }
+}
